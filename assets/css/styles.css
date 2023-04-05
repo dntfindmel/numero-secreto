@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+    --font-principal: 'Rubik', sans-serif;
+    --cor-principal: #FFEAEA;
+    --cor-secundaria: #E11299;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-principal);
+}
+
+h1 {
+    font-size: 4em;
+    letter-spacing: .2em;
+}
+
+h2 {
+    font-size: 4em;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--cor-principal);
+    font-size: 4em;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--cor-principal);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
