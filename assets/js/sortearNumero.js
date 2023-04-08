@@ -12,4 +12,3 @@ elMenorValor.innerHTML = menorValor;
 const elMaiorValor = document.getElementById('maior-valor');
 elMaiorValor.innerHTML = maiorValor;
 
-console.log(numeroSecreto)
